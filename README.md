@@ -66,6 +66,7 @@ Edit
 │   └── gifload.gif
 ├── README.md
 └── LICENSE
+
 🧪 Known Limitations
 Limited results per page from OMDb API (10 per request)
 
@@ -77,5 +78,4 @@ Feel free to fork, use, and modify the code!
 
 📄 License
 This project is licensed under the MIT License.
-```
 
