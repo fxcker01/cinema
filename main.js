@@ -23,7 +23,7 @@ class MovieService {
   
   async search(title, movie, page) {
     try {
-      const response = await fetch(`http://www.omdbapi.com/?apikey=${this.apiKey}&s=${title}&t=${movie}&page=${page}`);
+      const response = await fetch(`https://www.omdbapi.com/?apikey=${this.apiKey}&s=${title}&t=${movie}&page=${page}`);
       const data = await response.json();
       return data;
     } catch (error) {
@@ -34,7 +34,7 @@ class MovieService {
 
   async getMovieDetails(movieId) {
     try {
-      const response = await fetch(`http://www.omdbapi.com/?apikey=${this.apiKey}&i=${movieId}`);
+      const response = await fetch(`https://www.omdbapi.com/?apikey=${this.apiKey}&i=${movieId}`);
       const data = await response.json();
       return data;
     } catch (error) {
