@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="form-container">
+      <form id="searchForm">
+        <div class="wrapper-movie">
+          <input type="text" id="titleInput" placeholder="Enter the movie title">
+        </div>
+        <div class="wrapper-type">
+          <input type="text" id="movieInput" placeholder="Enter genre">
+        </div>
+        <div class="wrapper-button">
+          <button class="btn-learnmore" type="submit">Search</button>
+        </div>
+      </form>
+    </div>
+    <div class="background-image"></div>
+</div>
+
+<div id="moviesContainer"></div>
+
+<div class="wrapper-gif">
+  <div id="loadingIcon">
+    <img class="loading" src="img/gifload.gif" alt="Loading">
+  </div>
+  <br><br><br>
+</div>
+
+  <div class="wrapper-loadmore">
+    <button id="moreButton" onclick="loadMoreMovies()">More</button>
+  </div>
+
+  <div id="movieDetailsModal">
+    <div id="movieDetailsContent"></div>
+  </div>
+    <script src="main.js"></script>
+</body>
+</html>
