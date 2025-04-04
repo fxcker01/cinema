@@ -32,7 +32,7 @@ The app fetches movie data from the [OMDb API](http://www.omdbapi.com/) and allo
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/fxcker01/movie-search-js.git
+git clone https://github.com/fxcker01/cinema.git
 cd movie-search-js
 Open index.html in your browser:
 
@@ -66,15 +66,15 @@ Edit
 │   └── gifload.gif
 ├── README.md
 └── LICENSE
+
 🧪 Known Limitations
 Limited results per page from OMDb API (10 per request)
 
 No backend used – only client-side functionality
 
-👤 Author
-Created by fxcker01
-Feel free to fork, use, and modify the code!
+---
 
-📄 License
-This project is licensed under the MIT License.
-```
+## 📄 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+Created by [fxcker01](https://github.com/fxcker01) 🖤
