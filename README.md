@@ -32,7 +32,7 @@ The app fetches movie data from the [OMDb API](http://www.omdbapi.com/) and allo
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/fxcker01/movie-search-js.git
+git clone https://github.com/fxcker01/cinema.git
 cd movie-search-js
 Open index.html in your browser:
 
@@ -77,4 +77,4 @@ Feel free to fork, use, and modify the code!
 
 📄 License
 This project is licensed under the MIT License.
-```
+
